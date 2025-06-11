@@ -1,0 +1,65 @@
+body 
+{
+    font-family: Georgia, serif;
+    color: white;
+    background-color: #000;
+}
+
+header, footer 
+{
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+
+main 
+{
+    display: flex;
+}
+
+.lewy, .srodkowy
+{
+    width: 30%;
+    height: 350px;
+}
+
+.lewy
+{
+    background-color: #A26475;
+}
+
+.srodkowy 
+{
+    background-color: #824555;
+}
+
+.prawy 
+{
+    background-color: #A26470;
+    width: 40%;
+    height: 350px;
+    overflow: auto;
+}
+
+header img 
+{
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+}
+
+table, p, dt 
+{
+    margin: 10px;
+}
+
+dt 
+{
+    padding-top: 20px;
+}
+
+td, th 
+{
+    border: 3px solid #824555;
+    padding: 5px;
+}
